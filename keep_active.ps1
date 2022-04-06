@@ -27,7 +27,6 @@ for( $loop = 0; $loop -lt 1; ++$loop )
 	sleep 3
 	
 	p_str_send_key( "Hello`nWorld." );
-	sleep 1
 	
 	taskkill -F -IM notepad.exe
 }
